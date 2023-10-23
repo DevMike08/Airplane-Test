@@ -4,7 +4,13 @@
 body{
     margin: 0;
     padding: 0;
+
 }
+
+body:has(.active) {
+    overflow: hidden;
+}
+
 .content{
     padding-left: 10%;
     padding-right: 10%;
