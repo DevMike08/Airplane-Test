@@ -1,29 +1,32 @@
-*{
-    font-family: 'Roboto', sans-serif;
+@import 'fonts';
+
+* {
+	font-family: 'Roboto', sans-serif;
 }
-body{
-    margin: 0;
-    padding: 0;
+
+body {
+	margin: 0;
+	padding: 0;
 
 }
 
 body:has(.active) {
-    overflow: hidden;
+	overflow: hidden;
 }
 
-.content{
-    padding-left: 10%;
-    padding-right: 10%;
+.content {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-.content-top{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.content-top {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 @media (max-width:685px) {
-    .content{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+	.content {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 }
