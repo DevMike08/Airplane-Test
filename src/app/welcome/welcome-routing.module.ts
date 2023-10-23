@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from '../shared/components/footer/footer.component';
 
 // Define las rutas para este módulo.
 const routes: Routes = [
   {
     path: '', // Ruta raíz (página de inicio).
-    component: HomeComponent // El componente que se muestra cuando se accede a la ruta raíz.
+    component: HomeComponent,
   }
 ];
 
